@@ -1,0 +1,25 @@
+.erreur {
+    background: rgb(194, 41, 41);
+    box-shadow: 5px 5px 5px rgb(120, 23, 23);
+    color: aliceblue;
+    text-decoration: double;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+input{
+    padding: 8px;
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+    border: 2px solid rgb(69, 69, 69);
+    box-shadow: 5px 5px 5px rgb(103, 103, 103);
+    margin: 8px 0;
+}
+
+.bouton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}

@@ -3,3 +3,33 @@ h2 {
     color: white;
     padding: 8px;
 }
+
+td{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+
+/*
+even => 2n pair
+odd => 2n+1 impair
+*/
+
+tr:nth-child(2n) td:nth-child(2n+1){
+    background: black;
+}
+
+tr:nth-child(odd) td:nth-child(even){
+    background: black;
+}
+
+.inclus{
+    background: gold;
+}
+
